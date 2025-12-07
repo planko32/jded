@@ -240,6 +240,58 @@
       font-size: 14px;
       font-weight: 500;
     }
+    .currency-list {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .currency-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+      border-radius: 12px;
+      background-color: #3B3B3B;
+    }
+
+    .currency-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .currency-left img {
+      width: 28px;
+      height: 28px;
+      border-radius: 999px;
+      object-fit: cover;
+    }
+
+    .currency-name {
+      font-size: 14px;
+      color: #ffffffd9;
+    }
+
+    .currency-right {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      color: #ffffffd9;
+    }
+
+    .currency-amount {
+      min-width: 16px;
+      text-align: right;
+    }
+
+    .currency-arrow {
+      font-size: 14px;
+      transform: translateY(-1px);
+    }
+
 
     
     .bottom-nav {
@@ -427,6 +479,58 @@
       </section>
 
       <h2 class="currency-title">Currency List</h2>
+      <div class="currency-list">
+        <div class="currency-item">
+          <div class="currency-left">
+            <img src="token-usdt.png" alt="USDT" />
+            <span class="currency-name">USDT</span>
+          </div>
+          <div class="currency-right">
+            <span class="currency-amount">3</span>
+            <span class="currency-arrow">^</span>
+          </div>
+        </div>
+        <div class="currency-item">
+          <div class="currency-left">
+            <img src="token-btc.png" alt="BTC" />
+            <span class="currency-name">BTC</span>
+          </div>
+          <div class="currency-right">
+            <span class="currency-amount">0</span>
+            <span class="currency-arrow">^</span>
+          </div>
+        </div>
+        <div class="currency-item">
+          <div class="currency-left">
+            <img src="token-eth.png" alt="ETH" />
+            <span class="currency-name">ETH</span>
+          </div>
+          <div class="currency-right">
+            <span class="currency-amount">0</span>
+            <span class="currency-arrow">^</span>
+          </div>
+        </div>
+        <div class="currency-item">
+          <div class="currency-left">
+            <img src="token-usdc.png" alt="USDC" />
+            <span class="currency-name">USDC</span>
+          </div>
+          <div class="currency-right">
+            <span class="currency-amount">0</span>
+            <span class="currency-arrow">^</span>
+          </div>
+        </div>
+        <div class="currency-item">
+          <div class="currency-left">
+            <img src="token-trx.png" alt="TRX" />
+            <span class="currency-name">TRX</span>
+          </div>
+          <div class="currency-right">
+            <span class="currency-amount">0</span>
+            <span class="currency-arrow">^</span>
+          </div>
+        </div>
+      </div>
     </main>
 
     <nav class="bottom-nav">
